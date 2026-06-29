@@ -1,30 +1,74 @@
 {
   "version": "2.0",
-  "dataset_id": "on006817",
-  "source": "openneuro",
-  "source_id": "ds006817",
+  "pipeline_stage": "validated",
   "title": "Visual Attribute-Specific Contextual Trajectory Paradigm 2.0",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Benjamin Lowe (ben.lowe@mq.edu.au)": {},
     "Naohide Yamamoto (naohide.yamamoto@qut.edu.au)": {},
     "Jonathan Robinson (jonathan.robinson@monash.edu)": {},
     "Patrick Johnston (dr.pat.johnston@icloud.com)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006817.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006817",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006817",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.08.18.670829",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "12.3 GB (117 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".edf",
+    ".fif",
+    ".jasp",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".png",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "A neuroimaging dataset implementing the Visual Attribute-Specific Contextual Trajectory Paradigm 2.0, designed to investigate visual perception and contextual processing. This raw BIDS-formatted dataset provides neuroimaging data collected during a visual attribute task with contextual manipulations, supporting research into how the brain processes visual information within different contextual frameworks.",
+  "keywords": [
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "contextual processing"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "visual attributes"
+    }
+  ],
+  "source_hash": "78fdd8562d69d1586104628bac7dca12a767beef69e742460fbfcf650f0ee528"
 }
