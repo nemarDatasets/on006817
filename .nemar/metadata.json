@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Visual Attribute-Specific Contextual Trajectory Paradigm 2.0",
+  "description": "This dataset comprises EEG recordings collected using a Visual Attribute-Specific Contextual Trajectory Paradigm, designed to investigate visual attention and perceptual processing of moving stimuli. It provides raw electrophysiological data intended to support research into contextual and attribute-specific visual trajectory processing in humans.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,6 +11,23 @@
     "Jonathan Robinson (jonathan.robinson@monash.edu)": {},
     "Patrick Johnston (dr.pat.johnston@icloud.com)": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual attention"
+    },
+    {
+      "term": "perception"
+    },
+    {
+      "term": "trajectory processing"
+    },
+    {
+      "term": "contextual cognition"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006817.v1.0.0",
@@ -29,14 +47,14 @@
     {
       "identifier": "10.1101/2025.08.18.670829",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "12.3 GB (117 files)"
   ],
@@ -54,21 +72,6 @@
     ".tsv",
     ".txt",
     ".yml"
-  ],
-  "description": "A neuroimaging dataset implementing the Visual Attribute-Specific Contextual Trajectory Paradigm 2.0, designed to investigate visual perception and contextual processing. This raw BIDS-formatted dataset provides neuroimaging data collected during a visual attribute task with contextual manipulations, supporting research into how the brain processes visual information within different contextual frameworks.",
-  "keywords": [
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "contextual processing"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "visual attributes"
-    }
   ],
   "source_hash": "78fdd8562d69d1586104628bac7dca12a767beef69e742460fbfcf650f0ee528"
 }
