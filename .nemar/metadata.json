@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Visual Attribute-Specific Contextual Trajectory Paradigm 2.0",
-  "description": "This dataset comprises EEG recordings collected using a Visual Attribute-Specific Contextual Trajectory Paradigm, designed to investigate visual attention and perceptual processing of moving stimuli. It provides raw electrophysiological data intended to support research into contextual and attribute-specific visual trajectory processing in humans.",
+  "description": "This dataset contains raw neuroimaging recordings collected with the Visual Attribute-Specific Contextual Trajectory Paradigm 2.0. The paradigm is used to study how the brain generates domain-general visual surprise signals and how their latency depends on the visual attribute that is violated. It accompanies a pre-print on attribute-dependent latency of visual surprise signals.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,16 +16,16 @@
       "term": "EEG"
     },
     {
-      "term": "visual attention"
+      "term": "visual surprise"
     },
     {
-      "term": "perception"
+      "term": "prediction error"
     },
     {
-      "term": "trajectory processing"
+      "term": "contextual trajectory"
     },
     {
-      "term": "contextual cognition"
+      "term": "visual attributes"
     }
   ],
   "related_identifiers": [
@@ -47,7 +47,7 @@
     {
       "identifier": "10.1101/2025.08.18.670829",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -56,7 +56,7 @@
     "eeg"
   ],
   "sizes": [
-    "12.3 GB (117 files)"
+    "11.41 GB (117 files)"
   ],
   "formats": [
     ".csv",
